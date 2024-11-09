@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Penang CoE CForce Extension",
-  "version": "2.2",
+  "name": "Penang CoE CForce Extension AI",
+  "version": "2.3",
   "description": "Change the styles, especially the background color, of elements or ancestor/enclosing elements with specific content.",
   "permissions": ["storage", "tabs"],
   "background": {
