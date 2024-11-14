@@ -29,7 +29,27 @@
         "https://scholarone.my.salesforce.com/*",
         "https://proquestllc.lightning.force.com/*"
       ],
-      "js": ["content_script.js"],
+      "js": [
+        "content_script/emailKeywords.js",
+        "content_script/highlightAnchors.js",
+        "content_script/emailPageCheck.js",
+        "content_script/scholarOneHandleAnchor.js",
+        "content_script/isEndNoteSupportAnchor.js",
+        "content_script/isClarivateEmailList.js",
+        "content_script/handleAnchors.js",
+        "content_script/getEarlierDate.js",
+        "content_script/calculateTimeDifferenceInMinutes.js",
+        "content_script/isValidDateFormat.js",
+        "content_script/convertDateFormat.js",
+        "content_script/hasOpenButNotReopened.js",
+        "content_script/handleCases.js",
+        "content_script/scholarOneStatusColors.js",
+        "content_script/divElementChangerScholarOne.js",
+        "content_script/scholarOneHandleStatus.js",
+        "content_script/generateStyle.js",
+        "content_script/handleStatus.js",
+        "content_script/observer.js"
+      ],
       "run_at": "document_idle"
     }
   ]
