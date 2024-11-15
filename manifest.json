@@ -1,24 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "Penang CoE CForce Extension",
-  "version": "2.2",
+  "name": "TEST Penang CoE CForce Extension AI Refresh",
+  "version": "2.3",
   "description": "Change the styles, especially the background color, of elements or ancestor/enclosing elements with specific content.",
   "permissions": ["storage", "tabs"],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "src/background/background.js"
   },
   "icons": {
-    "16": "icons/ExtLogoV3.png",
-    "48": "icons/ExtLogoV3.png",
-    "128": "icons/ExtLogoV3.png"
+    "16": "icons/ExtLogoV3_dev.png",
+    "48": "icons/ExtLogoV3_dev.png",
+    "128": "icons/ExtLogoV3_dev.png"
   },
   "action": {
     "default_popup": "popup.html",
     "default_title": "Penang CoE CForce Extension",
     "default_icon": {
-      "16": "icons/ExtLogoV3.png",
-      "48": "icons/ExtLogoV3.png",
-      "128": "icons/ExtLogoV3.png"
+      "16": "icons/ExtLogoV3_dev.png",
+      "48": "icons/ExtLogoV3_dev.png",
+      "128": "icons/ExtLogoV3_dev.png"
     }
   },
   "content_scripts": [
@@ -29,7 +29,7 @@
         "https://scholarone.my.salesforce.com/*",
         "https://proquestllc.lightning.force.com/*"
       ],
-      "js": ["content_script.js"],
+      "js": ["src/content.js"],
       "run_at": "document_idle"
     }
   ]
