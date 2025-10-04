@@ -1,5 +1,3 @@
-import { generateStyle } from './generateStyle.js';
-
 function handleStatus() {
   let webTables = document.querySelectorAll('table');
 
@@ -28,5 +26,3 @@ function handleStatus() {
     }
   }
 }
-
-export { handleStatus };

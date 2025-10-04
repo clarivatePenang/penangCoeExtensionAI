@@ -1,6 +1,3 @@
-import { casePageCheck } from './casePageCheck.js';
-import { divElementChangerScholarOne } from './divElementChangerScholarOne.js';
-
 function scholarOneHandleStatus() {
   if (casePageCheck()) {
 
@@ -28,5 +25,3 @@ function scholarOneHandleStatus() {
     console.log("main function finished");
   }
 }
-
-export { scholarOneHandleStatus };

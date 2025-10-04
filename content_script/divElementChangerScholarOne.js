@@ -1,5 +1,3 @@
-import { scholarOneStatusColors } from './scholarOneStatusColors.js';
-
 function divElementChangerScholarOne() {
   // Get all div elements in the document
   var divElements = document.getElementsByTagName("div");
@@ -33,5 +31,3 @@ function divElementChangerScholarOne() {
     }
   }
 }
-
-export { divElementChangerScholarOne };

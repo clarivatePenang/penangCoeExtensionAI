@@ -8,5 +8,3 @@ function getEarlierDate(date1Str, date2Str) {
     return date2;
   }
 }
-
-export { getEarlierDate };

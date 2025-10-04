@@ -91,5 +91,3 @@ function getCurrentYear() {
   const year = currentDate.getFullYear();
   return year;
 }
-
-export { convertDateFormat, convertDateFormat2, convertDateFormatDDMMwithAMPM, convertDateFormatMMDDwithAMPM };
