@@ -43,6 +43,7 @@
         "content_script/convertDateFormat.js",
         "content_script/hasOpenButNotReopened.js",
         "content_script/handleCases.js",
+        "content_script/casePageCheck.js",
         "content_script/scholarOneStatusColors.js",
         "content_script/divElementChangerScholarOne.js",
         "content_script/scholarOneHandleStatus.js",

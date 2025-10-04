@@ -7,5 +7,3 @@ function calculateTimeDifferenceInMinutes(date) {
 
   return timeDifferenceInMinutes;
 }
-
-export { calculateTimeDifferenceInMinutes };

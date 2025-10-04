@@ -11,5 +11,3 @@ function scholarOneStatusColors(statusText) {
     return "rgb(251, 178, 22)";
   }
 }
-
-export { scholarOneStatusColors };
